@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:200,400");
+
+header{
+	color: rgba(255, 255, 255, 0.75);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 8em 0 6em 0;
+	margin: 1rem 5rem 0 5rem ;
+	background-image: url("../../images/header.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+	position: relative;
+	cursor: default;
+}
+
+header h1 {
+	font-size: 3em;
+	padding: 0 0.5em 0.25em 0.5em;
+	color: #ffffff;
+	border-bottom: solid 2px #ffffff;
+	font-weight: 200;
+	font-family: "Pacifico", cursive;
+	text-transform: none;
+	letter-spacing: 0;
+}
+
+header p {
+	letter-spacing: 0.325rem;
+	font-weight: 400;
+	font-size: 0.8em;
+	color: #ffffff
+}
+
+header a {
+    color: #2b7cff;
+}
+header a:hover {
+    color: #8c8507;
+}
+
+.content{
+	display: flex;
+	margin-bottom: 10%; 
+	
+}
+
+.content img{
+    width: 100%;
+    min-width: 56px;
+    background-position: center;
+    border-radius: 4px;
+}
+
+.content .col-md-9{
+	padding: 0;
+}
+.content .col-md-3{
+    left:20px;
+	padding-left: 20px;
+}
+.caption {
+	display:none;
+    padding-top: 2.8%;
+    padding-bottom: 2.8%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 98%;
+    color: #fff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 100%;
+    min-width: 56px;
+    height: 24%;
+}
+
+.cell {
+	width: 90%;
+    margin-bottom: 37.5px;
+	position: relative;
+}
+
+@media (max-width: 450px) {
+	.caption {
+        font-size: 54%;
+
+	}
+	.cell {
+        margin-bottom: 30%;
+    }
+}
+
+.cell a{
+	width: 100%;
+}
+
+.popular{
+	padding-bottom: 5px; 
+	border-bottom: solid 1.5px #4f4f4f;
+}
+
+.popular img{
+	min-width: 25px; 
+	width: 25px;
+	border-radius: 50%;
+	margin-bottom: 5px; 
+}
+
+.more{
+	margin-top: 6px;
+	text-align:right;
+	font-size:18px;
+}
+
+.contact{
+	font-size: 18px;
+}
+
+.community {
+	display: flex;
+}
+
+.community ul {
+    list-style: none;
+    position:absolute;
+    left:0px;
+}
+
+.community li{
+	width: 50px;
+}
+
+.community li img {
+    width: 24px;
+}
+
+footer {
+	justify-content: center;
+	display: flex;
+    font-size: 12px;
+    padding: 5px ;
+    margin: 5px ;
+}
+
+footer li{
+	list-style-type:none;
+}
+footer ul{
+	padding: 0px;
+}
+footer .col-sm-4{
+	min-width: 290px;
+
+}
+
+/*@media (min-width: 992px) {
+    footer .col-sm-4{
+    	border-left: 1px solid rgba(0, 0, 0, 0.75);
+	    border-right: 1px solid rgba(0, 0, 0, 0.75);
+    }
+}*/
+
+footer p{
+	text-align: left;
+}
